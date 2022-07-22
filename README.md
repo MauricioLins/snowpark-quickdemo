@@ -1,4 +1,5 @@
 ![Alt text](images/Snowflake_Logo.svg.png)
+![Alt text](images/welcome.jpg)
 
 
 ## Docker Build
