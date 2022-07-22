@@ -1,0 +1,4 @@
+numpy
+pandas
+snowflake-snowpark-python
+jupyterlab
