@@ -39,6 +39,13 @@ docker run -it --rm --name my-snowpark  -p 8888:8888  -v ${PWD}/workspace:/worsk
 ```
 
 ### Run the Jupyter Lab
+Once you are in the docker just run the command below to enable the Jupyter Lab notebook:
+
+* Docker container prompt
+```
+*root@92fda7eba3fe:/workspace#*
+```
+* Run the command below:
 ```
 jupyter-lab --allow-root
 ```
