@@ -1,6 +1,8 @@
 ![Alt text](images/Snowflake_Logo.svg.png)
 ![Alt text](images/welcome.jpg)
 
+This repository is a quick introduction to [b]Snowpark[/b]
+
 
 ## Docker Build
 sudo DOCKER_BUILDKIT=1 docker build .  --tag my-snowpark
