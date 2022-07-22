@@ -1,6 +1,6 @@
-![Alt text](images/Snowflake_Logo.svg.png)
-![Alt text](images/2560px-NTT-Data-Logo.svg.png)
-![Alt text](images/welcome.jpg)
+![Snowflake](images/Snowflake_Logo.svg.png)
+![NTT DATA](images/2560px-NTT-Data-Logo.svg.png)
+![Snowpark](images/welcome.jpg)
 
 
 This repository is a quick introduction to **Snowpark** that was triggered by the Snowpark Day organised by Snowflake and its partners such as NTT DATA.
