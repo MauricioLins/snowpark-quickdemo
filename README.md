@@ -49,5 +49,15 @@ Once you are in the docker just run the command below to enable the Jupyter Lab 
 ```
 jupyter-lab --allow-root
 ```
-Copy the Jupyter token informed in the prompt that will be used to access the notebook through web browser
+* Copy the Jupyter token informed in the prompt that will be used to access the notebook through web browser:
 ![Jupyter Prompt](images/jupyter_prompt.png)
+
+* Open you browser and access the address: **http://localhost:8888** and paste the token when asked and hit the **Log in** button
+
+Now you just need to navigate to the folder notebooks within the workspace folder and open the **snowpark** notebook
+
+## The Quick Demo notebook
+
+This notebook (**[here](workspace/notebooks/snowpark.ipynb)**) will give you a quick start about how to use Snowpark. If you are familiar with **Apache Spark** you will see that the basic dataframe structure is the same.
+
+To know more about Snowpark and its capabilities you can access the official documentation **[here](https://docs.snowflake.com/en/developer-guide/snowpark/index.html)**.
