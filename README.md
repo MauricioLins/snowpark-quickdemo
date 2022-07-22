@@ -29,19 +29,19 @@ To run this demo you will need to prepare these items in Snowflake:
 
 To run this a docker has been prepared to simplify the libraries installation and to help us to focus on the data straight away. To run this docker image please **clone this repository and follow the instructions below**.
 
-### Docker Build
+#### Docker Build
 ```
 DOCKER_BUILDKIT=1 docker build .  --tag snowpark-quickstart
 ```
-### Docker Run
+#### Docker Run
 ```
 docker run -it --rm --name my-snowpark  -p 8888:8888  -v ${PWD}/workspace:/worskpace snowpark-quickstart
 ```
 
-### Run the Jupyter Lab
+#### Run the Jupyter Lab
 Once you are in the docker just run the command below to enable the Jupyter Lab notebook:
 
-* Docker container prompt
+* Docker container prompt (illustrative)
 ```
 *root@92fda7eba3fe:/workspace#*
 ```
@@ -49,3 +49,5 @@ Once you are in the docker just run the command below to enable the Jupyter Lab 
 ```
 jupyter-lab --allow-root
 ```
+Copy the Jupyter token informed in the prompt that will be used to access the notebook through web browser
+![Jupyter Prompt](images/jupyter_prompt.png)
