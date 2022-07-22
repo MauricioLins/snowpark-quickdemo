@@ -1,3 +1,6 @@
+![Alt text](images/Snowflake_Logo.svg.png)
+
+
 ## Docker Build
 sudo DOCKER_BUILDKIT=1 docker build .  --tag my-snowpark
 
