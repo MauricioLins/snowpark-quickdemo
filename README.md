@@ -44,7 +44,7 @@ Once you are in the docker just run the command below to enable the Jupyter Lab 
 
 * Docker container prompt (illustrative)
 ```
-*root@92fda7eba3fe:/workspace#*
+root@92fda7eba3fe:/workspace#
 ```
 * Run the command below:
 ```
